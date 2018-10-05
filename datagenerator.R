@@ -5,7 +5,7 @@ list2env(
   dataset<-lapply(setNames(temp, make.names(gsub("*.csv$", "", temp))), 
                   read.csv), envir = .GlobalEnv)
 finaldata<-matrix(ncol=8,nrow=334)
-sum1=0
+sum1=1
 sum2=0
 sum3=0
 sum4=0
