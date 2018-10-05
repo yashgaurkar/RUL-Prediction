@@ -7,16 +7,7 @@ list2env(
 finaldata<-matrix(ncol=8,nrow=334)
 sum1=1
 sum2=0
-sum3=0
-sum4=0
-sum5=0
-sum6=0
-sum7=0
-sum8=0
-sum9=0
-sum10=0
-sum11=0
-sum12=0
+
 sum13=0
 sum14=0
 sum=0
