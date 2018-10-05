@@ -2,11 +2,7 @@ setwd("~/R/Working Directory/OPEN IIT DA/machinelearningdataset/")
 temp = list.files(pattern="*.csv")
 library(pracma)
 list2env(
-  dataset<-lapply(setNames(temp, make.names(gsub("*.csv$", "", temp))), 
-                  read.csv), envir = .GlobalEnv)
-finaldata<-matrix(ncol=8,nrow=334)
-sum1=1
-sum2=0
+  da
 sum3=0
 sum4=0
 sum5=0
